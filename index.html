@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dreamers Swiss Shop</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>Dreamers Swiss</h1>
+  <div class="products">
+    <div class="product">
+      <h2>Dreamer T-Shirt</h2>
+      <p>CHF 29.90</p>
+      <button onclick="addToCart('Dreamer T-Shirt', 29.90)">In den Warenkorb</button>
+    </div>
+    <div class="product">
+      <h2>Hoodie Schwarz</h2>
+      <p>CHF 59.00</p>
+      <button onclick="addToCart('Hoodie Schwarz', 59.00)">In den Warenkorb</button>
+    </div>
+    <div class="product">
+      <h2>Cap Classic</h2>
+      <p>CHF 24.50</p>
+      <button onclick="addToCart('Cap Classic', 24.50)">In den Warenkorb</button>
+    </div>
+  </div>
+  <h2>🛒 Warenkorb</h2>
+  <ul id="cart"></ul>
+  <p id="total"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
